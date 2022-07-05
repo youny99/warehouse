@@ -1,0 +1,163 @@
+    .container {
+		font-size: 14px;
+		line-height: 24px;
+	}
+	
+	.search-area{
+		position:fixed;
+		top:42px;
+		left:0;
+		right:0;
+		height:50px;
+		padding:0 20px;
+		background:#6d3b85;
+		border-bottom:1px solid #ddd;
+		z-index:9;
+		overflow:hidden;
+	}
+	.search-icon{
+		display:inline-block;
+		padding-top:12px;
+	}
+	.search-info{
+		display:inline-block;
+		vertical-align:top;
+		padding:12px 0 0 0;
+		float:right;
+		color:#fff;
+	}
+	.icon-scan{
+		display:inline-block;
+		padding:0;
+		color:#999;
+		font-size:12px;
+	}	
+	.section{
+		padding:15px;
+		background:#fff;
+	}
+	.section-title{
+		position:relative;
+		background:#fff;
+		margin:0 0 12px;
+		margin-bottom:6px;
+		padding:6px 12px;
+	}
+	.section-title-text{
+		padding-left:15px;
+		font-size:15px;
+		border-left:3px solid #FFB800;
+	}
+	.title-right-txt{
+		position:absolute;
+		top:5px;
+		right:20px;
+		font-size:13px;
+		color:#999;
+	}
+	.mms-btn{
+		width:86%;
+		background:#6d3b85;
+		color:#fff;
+		font-size:14px;
+		height:30px;
+		line-height:30px;
+		border-radius:20px;
+	}
+	.more-btn{
+		width:50%;
+		color:#6d3b85;
+		border:1px solid #6d3b85;
+		font-size:14px;
+		height:34px;
+		line-height:30px;
+		border-radius:20px;
+		vertical-align:top;
+	}
+	.section-title-txt{
+		padding-top:5px;
+		padding-left:15px;
+		color:#888;
+		font-size:13px;
+	}
+	.record-nolist{
+		padding:30rpx;
+		background:#fff;
+		text-align:center;
+		color:#666;
+	}
+	.mms-list,
+	.mms-content{
+		padding:60px 12px 12px;
+	}
+	.list-item-title{
+		padding:0 0 5px 20px;
+		margin-bottom:5px;
+		font-size:15px;
+		color:#444;
+		border-bottom:1px solid #efefef;
+	}
+	.list-title-icon{
+		display:inline-block;
+		position:absolute;
+		left:10px;
+		top:8px;
+	}
+	.list-item{
+		position:relative;
+		margin-bottom:10px;
+		padding:12px;
+		font-size:14px;
+		line-height:1.8;
+		color:#888;
+		background:#fff;
+		border-radius:8px;
+	}
+	.list-item-info{
+		display:inline-block;
+		width:calc(100% - 90px);
+		vertical-align: top;
+		word-break:break-all;
+		overflow:hidden;
+		color:#444;
+	}
+	.list-item-detail{
+		position:absolute;
+		top:66px;
+		right:10px;
+		padding:2px 0px 10px;
+		color: #6d3b85;
+		z-index: 2;
+	}
+	.mms-drawer-body{
+		padding:10px 15px;
+	}
+	.mms-close{
+		color:#fff;
+		font-size:13px;
+		width:26px;
+		height:26px;
+		line-height:22px;
+		font-size:16px;
+		border-radius:50%;
+		text-align:center;
+		background:#6d3b85;
+	}
+	.mms-drawer-search{
+		padding-top:15px;
+	}
+	.mms-drawer-searchtype{
+		padding-bottom:10px;
+	}
+	.searchtype-radio{
+		padding-right:15px;
+	}
+	.wechat-page .search-area{
+		top:0;
+	}
+	.wechat-page .mms-list,
+	.wechat-page .mms-content{
+		top:0;
+	}
+	
+	

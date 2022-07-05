@@ -1,0 +1,44 @@
+{
+	"pages": [{
+            "path": "pages/login/login", 
+            "style": {
+                "navigationBarTitleText": "物料管理"
+        }
+    },{
+		"path": "pages/index/index",
+		"style": {
+			"navigationBarTitleText": "物料管理"
+		}
+	},{
+            "path": "pages/user/user", 
+            "style": {
+                "navigationBarTitleText": "用户中心"
+        }
+    }],
+	"tabBar": {
+        "color": "#7a7e83",
+        "selectedColor": "#6d3b85",
+        "backgroundColor": "#ffffff",
+	    "list": [{
+	        "pagePath": "pages/index/index",
+	        "iconPath": "static/image/home.png",
+	        "selectedIconPath": "static/image/home_HL.png",
+	        "text": "首页"
+	    }, 
+		{
+	       "pagePath": "pages/user/user",
+	       "text": "我的",
+	       "iconPath": "static/image/user.png",
+	       "selectedIconPath": "static/image/user_HL.png"
+	    }]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	}
+}
